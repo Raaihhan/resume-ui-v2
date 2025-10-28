@@ -53,6 +53,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import Sidebar from '@/components/Sidebar.vue'
+import travel from '@/assets/images/trvl.jpeg'
 
 /**
  * Taruh file gambar di: public/assets/hobbies/
@@ -61,7 +62,7 @@ import Sidebar from '@/components/Sidebar.vue'
 const hobbies = [
   {
     title: 'Jalan Jalan & Traveling',
-    img: '/assets/images/trvl.jpeg',
+    img: travel,
     emoji: '👨‍💻',
     tags: ['Jalan', 'Pantai', 'Travel'],
     desc: 'Traveling untuk menghilangkan stress dan mencari inspirasi baru.'
