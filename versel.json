@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist/resume",
-  "redirects": [{ "source": "/", "destination": "/resume-ui-v2/", "permanent": false }]
+  "redirects": [{ "source": "/", "destination": "/#about", "permanent": false }]
 }
