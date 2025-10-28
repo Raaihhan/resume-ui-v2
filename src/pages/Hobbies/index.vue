@@ -6,7 +6,7 @@
     <main class="content">
       <header class="head">
         <h1 class="title"><span class="accent">HOBBIES</span></h1>
-        <p class="subtitle">Beberapa kegiatan yang aku nikmati di waktu luang.</p>
+        <p class="subtitle">Beberapa kegiatan yang saya nikmati di waktu luang.</p>
       </header>
 
       <section class="hobby-grid">
@@ -61,10 +61,10 @@ import Sidebar from '@/components/Sidebar.vue'
 const hobbies = [
   {
     title: 'Jalan Jalan & Traveling',
-    img: '/assets/images/travel.jpg',
+    img: '/assets/images/trvl.jpeg',
     emoji: '👨‍💻',
     tags: ['Jalan', 'Pantai', 'Travel'],
-    desc: 'Traveling untuk menghilangkan penat dan realese stress berlebihh.'
+    desc: 'Traveling untuk menghilangkan stress dan mencari inspirasi baru.'
   },
   {
     title: 'Reading Tech & Business',
