@@ -1,0 +1,9 @@
+{
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "redirects": [
+      { "source": "/", "destination": "/resume/", "permanent": false },
+      { "source": "/resume", "destination": "/resume/", "permanent": false }
+    ]
+  }
+  
